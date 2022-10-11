@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    width: 980px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #cb7802;
+    height: 100px;
+}
+
+header img{
+    padding-left: 24px;
+}
+
+nav{
+    height: 36px;
+    margin-bottom: 8px;
+    background-color: #272f54;
+}
+
+nav li{
+    float:left;
+    display: block;
+    list-style-type: none;
+}
+
+nav li a{
+    text-decoration: none;
+    line-height: 36px;
+    color: white;
+    margin: 0 24px ;
+    font-size: 12px;
+}
+
+nav #search{
+    float: right;
+    margin-right:5px ;
+    line-height: 36px;
+}
+
+nav #search input{
+    width: 300px;
+}
+
+nav #search button{
+    color: white;
+    font-size: 12px;
+    padding: 2px 15px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    background-color: #272f54;
+}
+
+nav #search button:hover{
+    cursor: pointer;
+    background-color: red;
+}
+
+content{
+}
+
+content .navcontent{
+    margin-top : 13px;
+}
+
+content h2{
+    text-align: center;
+    color: #272f54;
+    font-size: 20px;
+    margin: 22px 0;
+}
+
+content a .contact{
+    float: left;
+    width: 31.7%;
+    padding: 0 24px;
+    margin-right:24px ;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+}
+
+content a .contact h3{
+    margin: 14px 0;
+    font-size: 16px;
+    color: #ad3f00;
+}
+
+content a .contact p{
+    color: #000;
+    font-size: 13px;
+    padding: 18px 0 28px 0;
+}
+
+content a .contact img{
+}
+
+#fix{
+    margin-right: 0;
+}
+
+footer{
+    height: 50px;
+    margin-top: 13px;
+    background-color: #272f54;
+}
+
+footer p{
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+}
